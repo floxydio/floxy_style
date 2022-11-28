@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class DangerButton extends StatelessWidget {
+class WarningButton extends StatelessWidget {
   final Widget widget;
   final Function()? pressed;
   final String typeBorder = "none";
-  const DangerButton({Key? key, required this.widget, required this.pressed})
+  const WarningButton({Key? key, required this.widget, required this.pressed})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        primary: Colors.redAccent,
+        primary: Colors.yellowAccent,
         shape: RoundedRectangleBorder(
             borderRadius: typeBorder == "none"
                 ? const BorderRadius.all(Radius.circular(0))

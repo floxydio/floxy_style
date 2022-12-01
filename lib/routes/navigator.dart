@@ -21,3 +21,4 @@ class NavigateFlox {
     Navigator.pushReplacementNamed(context, routeName);
   }
 }
+

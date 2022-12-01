@@ -1,3 +1,8 @@
-## 0.0.1
+## 0.0.2
+* Update new Route Configuration
+* Update new Warning and Danger button
+* Downgrade flutter minimum sdk 1.12
 
-* TODO: Describe initial release.
+## 0.0.3
+* Add Sizing
+* Fix Documentation

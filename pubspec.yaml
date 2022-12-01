@@ -1,7 +1,7 @@
 name: floxy_style
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: Floxy Style is utility for help you code.
+version: 0.0.3
+homepage: https://github.com/floxydio/floxy_style
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

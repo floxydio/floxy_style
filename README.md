@@ -1,10 +1,12 @@
-FLOXY_Style is Utility with Lightweight performance, and the new era of state management
+FloxyStyle is Utility with Lightweight performance and many feature coming soon in this package
+hopefully you can give me suggestion in issue github
 
 ## Features
 
 - Button
 - Route / Navigator
 - Sizing
+- Validator
 
 
 ## Usage
@@ -17,28 +19,41 @@ DangerButton(
   typeBorder: "bd-1"
 )
 ```
-Use Route Navigator
+## Route Navigator
 
 To push your navigator screen just use
 ```dart
-  NavigateFlox().moveTo(context, ScreenName())
+  FN.moveTo(context, ScreenName())
 ```
 
 To push your navigator with namedRoute screen just use
 ```dart
-  NavigateFlox().moveToWithRoutes(context, "/exampleroute")
+  FN.moveToWithRoutes(context, "/exampleroute")
 ```
 
 To Close your screen just use
 ```dart
-  NavigateFlox().closePage(context)
+  FN.closePage(context)
 ```
 
-Use Sizing
+## Sizing
 
 ```dart
-  sizing.
-
+  FSZ.fullW(context)
 ```
 
+## Validator
 
+```dart
+  // Min Length Validator
+  FV.minLength(String value, int minLength)
+  // if valid return true
+
+   // Max Length Validator
+  FV.maxLength(String value, int maxLength)
+  // if valid return true
+
+  // Email Validator
+  FV.email(String value)
+  // if valid return true
+```

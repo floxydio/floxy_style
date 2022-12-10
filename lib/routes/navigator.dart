@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-class NavigateFlox {
+/*
+FN is Floxy Navigator
+
+*/
+class FN {
   static moveTo(BuildContext context, Widget routePage) {
     Navigator.push(context, MaterialPageRoute(builder: (_) => routePage));
   }

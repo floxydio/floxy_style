@@ -6,3 +6,7 @@
 ## 0.0.3
 * Add Sizing
 * Fix Documentation
+
+## 0.0.4
+* Change Class For Flexible
+* Add Regex Validator

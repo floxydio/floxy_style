@@ -1,6 +1,6 @@
 name: floxy_style
 description: Floxy Style is utility for help you code.
-version: 0.0.3
+version: 0.0.3+1
 homepage: https://github.com/floxydio/floxy_style
 
 environment:
